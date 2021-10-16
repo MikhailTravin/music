@@ -1002,17 +1002,26 @@ body.ie ._ibg img {
 }
 .form-popup__items-four {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
   margin: 0px 0px 30px 0px;
 }
 @media (max-width: 700px) {
   .form-popup__items-four {
     flex-direction: column;
+  }
+}
+.form-popup__items-five {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0px 0px 30px 0px;
+}
+@media (max-width: 700px) {
+  .form-popup__items-five {
+    flex-direction: column;
     align-items: start;
     justify-content: start;
   }
-  .form-popup__items-four:last-child {
+  .form-popup__items-five:last-child {
     margin: 0px 0px 0px 0px;
   }
 }
