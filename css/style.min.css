@@ -1441,9 +1441,17 @@ body.ie ._ibg img {
     top: 500px;
   }
 }
+@media (max-width: 767.98px) {
+  .slide__block {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 550px;
+  }
+}
 @media (max-width: 479.98px) {
   .slide__block {
-    top: 400px;
+    top: 500px;
   }
 }
 .slide__text {
@@ -1455,8 +1463,18 @@ body.ie ._ibg img {
   margin: 0px 0px 30px 0px;
 }
 @media (max-width: 767.98px) {
+  .slide__text {
+    text-align: center;
+    font-size: 45px;
+  }
   .slide__text br {
     display: none;
+  }
+}
+@media (max-width: 479.98px) {
+  .slide__text {
+    text-align: center;
+    font-size: 40px;
   }
 }
 .slide__button {
