@@ -1007,7 +1007,6 @@ body.ie ._ibg img {
   right: 0px;
   cursor: pointer;
   z-index: 30;
-  background: url("../img/icons/close.svg") 0 0 no-repeat;
 }
 
 .popup__title {
