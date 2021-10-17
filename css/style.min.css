@@ -4053,12 +4053,22 @@ body.ie ._ibg img {
 .about__title {
   padding: 320px 0px 100px 0px;
 }
+@media (max-width: 991.98px) {
+  .about__title {
+    padding: 200px 0px 100px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .about__title {
+    padding: 150px 0px 100px 0px;
+  }
+}
 .about__text {
   font-weight: 500;
   font-size: 54px;
   line-height: 70px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0px 0px 44px 0px;
 }
 @media (max-width: 991.98px) {
@@ -4082,7 +4092,7 @@ body.ie ._ibg img {
   font-size: 36px;
   line-height: 46px;
   text-align: center;
-  background: linear-gradient(90deg, #36D1DC 0%, #5B86E5 107.92%);
+  background: linear-gradient(90deg, #36d1dc 0%, #5b86e5 107.92%);
   background-clip: text;
   -webkit-background-clip: text;
   margin: 0px 0px 60px 0px;
@@ -4113,7 +4123,7 @@ body.ie ._ibg img {
   font-weight: 400;
   font-size: 36px;
   line-height: 46px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0px 0px 44px 0px;
 }
 .about__link::before {
@@ -4121,7 +4131,7 @@ body.ie ._ibg img {
   display: flex;
   width: 6px;
   height: 6px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   margin: 17px 15px 0px 15px;
 }
@@ -4140,7 +4150,7 @@ body.ie ._ibg img {
   }
 }
 
-.fon__image-1 {
+.about__image-1 {
   position: absolute;
   background: #121524;
   border-radius: 50%;
@@ -4152,17 +4162,17 @@ body.ie ._ibg img {
   z-index: 0;
 }
 @media (max-width: 991.98px) {
-  .fon__image-1 {
+  .about__image-1 {
     left: -30%;
   }
 }
 @media (max-width: 700px) {
-  .fon__image-1 {
+  .about__image-1 {
     left: -60%;
     top: -170px;
   }
 }
-.fon__image-2 {
+.about__image-2 {
   position: absolute;
   z-index: 2;
   top: 90px;
@@ -4172,31 +4182,31 @@ body.ie ._ibg img {
   object-fit: cover;
 }
 @media (max-width: 991.98px) {
-  .fon__image-2 {
+  .about__image-2 {
     left: 0;
   }
 }
 @media (max-width: 700px) {
-  .fon__image-2 {
+  .about__image-2 {
     left: -6%;
   }
 }
-.fon__image-3 {
+.about__image-3 {
   position: absolute;
   top: 0;
   left: 5%;
 }
-.fon__image-4 {
+.about__image-4 {
   position: absolute;
   top: 40%;
   left: -220px;
 }
 @media (max-width: 479.98px) {
-  .fon__image-4 {
+  .about__image-4 {
     top: 30%;
   }
 }
-.fon__image-5 {
+.about__image-5 {
   position: absolute;
   right: -260px;
   top: 20%;
